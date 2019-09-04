@@ -27,6 +27,22 @@ console.log(highestGlobalMinimum([6, 2, 4, 10, 8, 2] , [6, 5, 13, 23])); // 5
 console.log(highestGlobalMinimum([5, 11, 18, 6], [3, 1, 8, 13])); // 5
 
 // Pseudocode
-// nilaiTerkecil1 = firstArr[0]
-// nilaiTerkecil2 = secondArr[0]
-// for 
+  // DEFINE nilaiTerkecil1 equals firstArr
+  // FOR firstArr
+  //   IF nilaiTerkecil1 smaller firstArr
+  //     nilaiTerkecil1 equals firstArr
+  //   ENDIF
+  // ENDFOR
+
+  // DEFINE nilaiTerkecil2 equals secondArr
+  // FOR secondArr
+  //   IF nilaiTerkecil2 greater than secondArr
+  //     nilaiTerkecil2 equals secondArr
+  //   ENDIF 
+  // ENDFOR
+
+  // IF nilaiTerkecil1 greater than nilaiTerkecil2
+  //   RETURN nilaiTerkecil1
+  // ELSE
+  //   RETURN nilaiTerkecil2
+  // END IF

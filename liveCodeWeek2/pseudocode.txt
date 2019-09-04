@@ -1,0 +1,7 @@
+- create function highGolbalMinimum two parameter firstArr and secondArr
+- create var banding1 if banding1 < firstArr looping
+- banding1 = firstArr
+- create var banding2 if banding2 < secondArr looping
+- banding2 = secondArr
+- if banding1 more than banding2 return banding1
+- if else return banding2

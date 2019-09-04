@@ -28,32 +28,29 @@
         }   
      */
     /*PSEUDOCODE
-     1. Hitung variable 'minArr1' sama dengan 0
+     
+    Hitung variable highestGlobalMinimum = firstArr dan secondArr
+     1. Hitung variable 'min1' sama dengan 0  
+     2. Hitung variable 'min2' sama dengan 0
 
-     2. Hitung variable 'minArr2' sama dengan 0
-
-     3. FOR pertambahan 1 dengan Nilai awal = 0 dan Nilai akhir = panjang 'firstArr'-1 :
-          IF Nilai saat ini = 0, THEN:
-            Hitung 'minArr1' = variable 'firstArr' dengan Nilai 0
-          ENDIF
-          IF variable di 'firstArr' pada Nilai saat ini lebih kecil dari pada 'minArr1', THEN:
-            Hitung 'minArr1' = variable 'firstArr' dengan Nilai saat ini
+     3. FOR pertambahan 1 dengan Nilai awal = 0 dan Nilai akhir = panjang 'firstArr' :   
+          IF variable di 'min1' pada Nilai saat ini lebih besar dari pada 'FirstArr' index saat ini, 
+          THEN:
+            Hitung 'min1' = variable 'firstArr' dengan Nilai saat ini
           ENDIF
           ENDFOR
 
-     4. FOR pertambahan 1 dengan Nilai awal = 0 dan Nilai akhir = panjang 'secondArr'-1 :
-             IF Nilai saat ini = 0, THEN:
-              Hitung 'minArr2' = variable 'secondArr' dengan Nilai 0
-             ENDIF
-             IF variable di 'firstArr' pada Nilai saat ini lebih kecil dari pada 'minArr2', THEN:
-            Hitung 'minArr2' = variable 'secondArr' dengan Nilai saat ini
+     3. FOR pertambahan 1 dengan Nilai awal = 0 dan Nilai akhir = panjang 'firstArr' :   
+          IF variable di 'min2' pada Nilai saat ini lebih besar dari pada 'FirstArr' index saat ini, 
+          THEN:
+            Hitung 'min2' = variable 'firstArr' dengan Nilai saat ini
           ENDIF
-        ENDFOR
+          ENDFOR
 
-     5. IF nilai pada 'minArr1' lebih besar dari pada nilai pada 'minArr2', THEN:
-          return 'minArr1'
-        ELSE IF nilai pada 'minArr1' lebih kecil dari pada nilai pada 'minArr2', THEN:
-          return 'minArr2'
+     5. IF nilai pada 'min1' lebih besar dari pada nilai pada 'min2', THEN:
+          return 'min1'
+        ELSE IF nilai pada 'min1' lebih kecil dari pada nilai pada 'min2', THEN:
+          return 'min2'
     */
 
 

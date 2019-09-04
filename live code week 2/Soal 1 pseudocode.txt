@@ -1,0 +1,10 @@
+Pseudocode
+1. input firstArr
+2. input SecondArr
+3. if firstArr [i] < firstArr [i+1]
+4. 0 = 0 + firstArr[i]
+5. if secondArr [j] < secondArr [j+1]
+6. 0 = 0 + secondArr[j]
+7. if minimum2[0] > minimum1[0] --> hasil = minimum2[0]
+8. if minimum1[0] > minimum2[0] --> hasil = minimum1[0]
+9. return hasil;

@@ -1,0 +1,19 @@
+FUNGSI highestGlobalMinimum (fadh , nilai)
+DEKLARASI
+N & I = 0
+	for(n = 0; n < fadh.length; n++){
+    if(fadh[n] < samns){
+      samns = fadh[n]
+    
+   	for(n = 0; l < nilai.length; l++){
+    	if(nilai[l] < dwi){
+      	dwi=nilai[l]
+    
+  
+      if(samns > dwi){
+      return samns
+  
+      else{
+      return dwi
+  
+

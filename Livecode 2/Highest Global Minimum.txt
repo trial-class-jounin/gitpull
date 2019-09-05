@@ -1,0 +1,27 @@
+1. Tentukan variable 'firstArr1' sama dengan 0
+ 
+2. Tentukan variable 'secondArr2' sama dengan 0
+ 
+3. FOR pertambahan 1 dengan index awal = 0 dan index akhir = panjang 'firstArr'-1 :
+       IF index saat ini = 0, THEN:
+         Tentukan 'firstArr1' = variable 'firstArr' dengan index 0
+       ENDIF
+       IF variable di 'firstArr' pada index saat ini lebih kecil dari pada 'firstArr1', THEN:
+        Tentukan 'firstArr1' = variable 'firstArr' dengan index saat ini
+       ENDIF
+     ENDFOR
+ 
+4. FOR pertambahan 1 dengan index awal = 0 dan index akhir = panjang 'secondArr'-1 :
+       IF index saat ini = 0, THEN:
+        Tentukan 'SecondArr2' = variable 'secondArr' dengan index 0
+      ENDIF
+       IF variable di 'firstArr' pada index saat ini lebih kecil dari pada 'secondArr2', THEN:
+         Tentukan 'secondArr2' = variable 'secondArr' dengan index saat ini
+       ENDIF
+     ENDFOR
+ 
+5. IF nilai pada 'firstArr1' lebih besar dari pada nilai pada 'secondArr2', THEN:
+       return 'firstArr1'
+     ELSE IF nilai pada 'firstArr1' lebih kecil dari pada nilai pada 'secondArr2', THEN:
+       return 'secondArr2'
+ 

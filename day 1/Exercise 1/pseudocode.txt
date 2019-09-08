@@ -1,0 +1,30 @@
+Newton Second Law
+1. start
+2. Input: m = 600 kg
+3. Input: A = 2 m / s2
+4. calculate SF = m x a
+5. print the value SF
+6. finished
+
+Tahun kabisat
+1. INPUT year
+2. IF year MOD 4 equals zero then
+3. IF year MOD 100 equals not zero OR year MOD 100 equals zero AND year MOD 400 equals zero
+4. DEFINE year as kabisat
+
+Laundry Day
+1. start
+2. Input: clothes to be washed = 20
+3. if all clothes have entered the washing machine will light up
+4. count the number of clothes that enter the washing machine
+5. print out the number of clothes = 20
+6. finished
+
+Periksa Kuku
+1. start
+2. students input = 40 to be inspected nails
+3. if students have long nails will be punished by the teacher
+4. if not the teacher will praise the students
+5. count students who have long nails
+6. print the grades of students who will be punished
+7. finished

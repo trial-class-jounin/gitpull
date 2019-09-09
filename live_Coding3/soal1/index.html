@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+
+   /*
+        -- PSEUDOCODE soal 1
+
+        1. INPUT array number, index dan count dalam function arrayRemove
+        2. DEKLARASIKAN array kosong
+        3. lakukan LOOP WHILE (i < index) dan PUSH ke result
+        4. lakukan LOOP FOR (j = index+count; j < array.length) dan PUSH result
+        5. return result
+
+
+   */
+
+
+
+   function arrayRemover (array, index, count) {
+    
+    var result = []
+    
+ 
+
+    var i = 0;
+    while (i < index) {
+        result.push(array[i]);
+        i++;
+    }
+  
+    for (var j = index+count; j < array.length; j++) {
+
+        result.push(array[j])
+
+    }
+    
+    return result;
+  }
+  
+  console.log(arrayRemover([ 1, 2, 3] , 0 , 2 )); // [3]
+  console.log(arrayRemover([ 666, 666, 333, 10, 5, 6] , 1 , 2 )); // [ 666, 10, 5, 6 ]
+  console.log(arrayRemover([ 1, 2, 3], 0, 3)) // []
+
+
+
+    
+    
+    </script>
+</body>
+</html>

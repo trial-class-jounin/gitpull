@@ -1,0 +1,12 @@
+// mulai
+
+// add and save function arrayRemover with there parameters (array, index, count)
+// add and save angkaHasil with arr[]
+// lakukan pengecekan pertama
+// dorong variabel angkaHasil dengan parameter array[i]
+// lakukan pengecekan untuk yang kedua
+// dorong variabel angkaHasil dengan parameter array[j]
+// kembalikan angkaHasil
+
+// selesai
+

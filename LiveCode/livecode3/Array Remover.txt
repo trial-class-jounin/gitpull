@@ -1,0 +1,11 @@
+INPUT array, Index, Count
+
+Tentukan Variabel 'angkaHasil' = []
+
+FOR pertambahan 1 dengan index awal =0 dan index akhir = index :
+angkaHasil dipush array[i] dengan pertambahan 1
+
+FOR pertambahan 1 dengan index awal =index+count dan index akhir = panjang array :
+angkaHasil dipush array[j] dengan pertambahan 1
+
+THEN return angkaHasil 

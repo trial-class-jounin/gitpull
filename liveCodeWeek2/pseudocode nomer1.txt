@@ -1,0 +1,21 @@
+Start
+
+inisialisasi variabel comp1 = firstArr
+inisialisasi variabel comp2 = secondArr
+
+Buat variabel comp1
+membuat rumus perulangan, var i = 0 (dimulai dari 0) jika i lebih kecil dari firstArr maka i++
+jika firstArr[i](rumus perulangan) lebih kecil dari variabel comp1
+comp1 = firstArr
+
+Buat variabel comp2
+membuat rumus perulangan, var j = 0 (dimulai dari 0) jika j lebih kecil dari secondtArr maka j++
+jika secondArr[i](rumus perulangan) lebih kecil dari variabel comp2
+comp2 = secondArr
+
+jika comp1 lebih besar dari comp2
+mencetak atau kembali ke comp1
+
+jika ada kondisi lainnya
+mencetak atau maka ke comp2
+end
